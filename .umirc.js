@@ -1,7 +1,10 @@
 
+import routes from './config/routes'
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
+  sass: {},
+  routes: routes,
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
