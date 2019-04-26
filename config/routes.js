@@ -1,7 +1,7 @@
 export default [ 
-  { path: '/', component: '../layouts/index.js',
+  { path: '/', component: '../layouts/base.js',
     routes: [
-      { path: '/', component: './index.js' }
+      { path: '/', component: './Index/index.jsx' }
     ]
   }
 ]
