@@ -16,7 +16,7 @@ function BasicLayout(props) {
     <Layout style={{ minHeight: '100vh'}}>
       <Sider collapsible collapsed={collapsed} onCollapse={() => setCollapsed(!collapsed)}>
         <div className={styles.logo}>
-          <p>5E Tracker</p>
+          <p><i className="game-icon game-icon-anchor" />5E Tracker</p>
         </div>
         <Menu theme='dark' mode="inline">
           <Menu.Item key='1'>
